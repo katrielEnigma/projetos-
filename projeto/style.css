@@ -1,0 +1,31 @@
+body {
+    maring: 0;
+}
+
+/* style do título elemento h1 */
+h1 {
+    margin: 0;
+}
+
+/* esse é o style do cabeçalho. */
+header {
+    background-color: rgb(12, 104, 209);
+    display: flex;
+    justify-content: space-between; /*só funciona com display flex */   
+}
+
+#box-categorias button, #box-ordenar button {
+    
+    border: 0; /* muda a borda ou tira */
+    color: rgb(31, 8, 233); /* muda a cor da fonte das palvras */
+    padding: 10px 20px; /* define a distancia entre o conteúdo de um elemento e suas bordas */
+    border-radius: 5px; /* permite adicionar cantos arredondados a um elemento*/
+}
+
+#box-categorias button{
+background-color: rgb(43, 209, 10); /* ultilizado pra mudar a cor de fundo de um elemento */
+}
+
+#box-ordenar button{
+    background-color: rgb(33, 209, 194); /* ultilizado pra mudar a cor de fundo de um elemento */
+}
