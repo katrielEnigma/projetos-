@@ -1,5 +1,6 @@
+/*contém o corpo de um documento HTML, que é exibido pelo navegador em sua janela, ou seja, todo o conteúdo visível do site.*/
 body {
-    maring: 0;
+    margin: 0px; /*define a área de margem nos quatro lados do elemento.*/
 }
 
 /* style do título elemento h1 */
@@ -9,9 +10,9 @@ h1 {
 
 /* esse é o style do cabeçalho. */
 header {
-    background-color: rgb(12, 104, 209);
-    display: flex;
-    justify-content: space-between; /*só funciona com display flex */   
+    background-color: rgb(12, 104, 209);    /*define a cor de fundo de um elemento.*/
+    display: flex;                            /*define o comportamento do elemento em relação aos demais elementos do documento.*/
+    justify-content: space-between;           /*só funciona com display flex */   
 }
 
 #box-categorias button, #box-ordenar button {
