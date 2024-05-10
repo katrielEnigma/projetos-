@@ -1,0 +1,32 @@
+/*contém o corpo de um documento HTML, que é exibido pelo navegador em sua janela, ou seja, todo o conteúdo visível do site.*/
+body {
+    margin: 0px; /*define a área de margem nos quatro lados do elemento.*/
+}
+
+/* style do título elemento h1 */
+h1 {
+    margin: 0;
+}
+
+/* esse é o style do cabeçalho. */
+header {
+    background-color: rgb(12, 209, 147);    /*define a cor de fundo de um elemento.*/
+    display: flex;                            /*define o comportamento do elemento em relação aos demais elementos do documento.*/
+    justify-content: space-between;           /*só funciona com display flex */   
+}
+
+#box-categorias button, #box-ordenar button {
+    
+    border: 0; /* muda a borda ou tira */
+    color: rgb(9, 210, 221); /* muda a cor da fonte das palvras */
+    padding: 10px 20px; /* define a distancia entre o conteúdo de um elemento e suas bordas */
+    border-radius: 5px; /* permite adicionar cantos arredondados a um elemento*/
+}
+
+#box-categorias button{
+background-color: rgba(19, 52, 182, 0.809); /* ultilizado pra mudar a cor de fundo de um elemento */
+}
+
+#box-ordenar button{
+    background-color: rgba(12, 113, 214, 0.833); /* ultilizado pra mudar a cor de fundo de um elemento */
+}
